@@ -18,13 +18,25 @@ const About = () => {
               Hi. I'm Alejandro, nice to meet you. Please take a look around.
             </p>
           </div>
-          <div>
+          <div className="text-justify">
+            <p>
+              I'm a very ambitious Software Engineer and front-end developer
+              looking for a role in a tech company with the opportunity to work
+              with the latest technologies on challenging and diverse projects.
+            </p>
+            <p> </p>
             <p>
               I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
+              the lives of those around me. I aim to improve myself and hone my
+              coding and problem solving skills daily. The tech world advances
+              at a rapid pace and the only way to keep up is to be on top of the
+              latest technologies.
+            </p>
+            <p> </p>
+            <p>
+              I am also a fitness enthusiast, an avid reader (both fiction and
+              non-fiction), a language learner (currently at an intermediate
+              level in Japanese), and a foodie (Yelp Elite status).
             </p>
           </div>
         </div>
