@@ -2,7 +2,7 @@ import React from "react";
 import Bankist from "../assets/bankist.jpeg";
 import GoogleClone from "../assets/google-clone.jpg";
 import Forkify from "../assets/forkify.jpg";
-import FilmsLA from "../assets/filmsla.jpg";
+import IMDBClone from "../assets/imdb-clone.jpg";
 import Mapty from "../assets/mapty.jpg";
 import BluePidgeon from "../assets/bluepidgeon.jpg";
 
@@ -68,21 +68,21 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${FilmsLA})` }}
+            style={{ backgroundImage: `url(${IMDBClone})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                FilmsLA Movie Website
+                IMDB Clone
               </span>
               <div className="pt-8 text-center">
-                <a href="https://films-la.netlify.app/">
+                <a href="https://imdb-clone-ajfm88.vercel.app//">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/ajfm88/FilmsLAMovieWebsite/">
+                <a href="https://github.com/ajfm88/imdb-clone/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
