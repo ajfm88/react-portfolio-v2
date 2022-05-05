@@ -30,9 +30,9 @@ const Home = () => {
             </button>
           </Link>
         </div>
-        {/* <div className="max-w-[500px] relative">
-          <BackgroundAnimation />
-        </div> */}
+      </div>
+      <div className="max-w-[500px] flex flex-col">
+        <BackgroundAnimation />
       </div>
     </div>
   );
