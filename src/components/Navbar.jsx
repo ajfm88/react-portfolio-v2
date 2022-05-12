@@ -7,6 +7,7 @@ import {
   FaFacebook,
   FaInstagram,
   FaTwitterSquare,
+  FaTiktok,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -97,7 +98,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons */}
-      <div className="hidden lg:flex fixed flex-col top-[25%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[21%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
@@ -153,6 +154,14 @@ const Navbar = () => {
               href="https://twitter.com/ajfm88/"
             >
               Twitter <FaTwitterSquare size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#000000]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://www.tiktok.com/@ajfm88/"
+            >
+              TikTok <FaTiktok size={30} />
             </a>
           </li>
         </ul>
