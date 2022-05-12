@@ -1,7 +1,8 @@
 import React from "react";
 import GoogleClone from "../assets/google-clone.jpg";
-import Forkify from "../assets/forkify.jpg";
 import IMDBClone from "../assets/imdb-clone.jpg";
+import InstagramClone from "../assets/instagram-clone.jpg";
+import Forkify from "../assets/forkify.jpg";
 import Mapty from "../assets/mapty.jpg";
 import BluePidgeon from "../assets/bluepidgeon.jpg";
 import SupportDesk from "../assets/supportdesk.jpg";
@@ -21,21 +22,21 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${GoogleClone})` }}
+            style={{ backgroundImage: `url(${InstagramClone})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Google Clone
+                Instagram Clone
               </span>
               <div className="pt-8 text-center">
-                <a href="https://google-clone-ajfm88.vercel.app/">
+                <a href="https://instagram-clone.vercel.app//">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/ajfm88/google-clone/">
+                <a href="https://github.com/ajfm88/instagram-clone/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -68,21 +69,21 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${SupportDesk})` }}
+            style={{ backgroundImage: `url(${GoogleClone})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Support Desk App
+                Google Clone
               </span>
               <div className="pt-8 text-center">
-                <a href="https://ajfm88supportdesk.herokuapp.com/">
+                <a href="https://google-clone-ajfm88.vercel.app//">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/ajfm88/support-desk/">
+                <a href="https://github.com/ajfm88/google-clone/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -115,29 +116,6 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${BluePidgeon})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Blue Pigeon Photograpy
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://blue-pidgeon-photography.netlify.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/ajfm88/BluePidgeonPhotography/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
             style={{ backgroundImage: `url(${IMDBClone})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
@@ -153,6 +131,29 @@ const Work = () => {
                   </button>
                 </a>
                 <a href="https://github.com/ajfm88/imdb-clone/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${SupportDesk})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Support Desk App
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://ajfm88supportdesk.herokuapp.com/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/ajfm88/support-desk/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
