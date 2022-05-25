@@ -26,7 +26,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='font-bold text-white text-center'>
                 Instagram Clone Social Media App
               </span>
               <div className='pt-8 text-center'>
@@ -49,7 +49,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='font-bold text-white text-center'>
                 Crwn Clothing eCommerce App
               </span>
               <div className='pt-8 text-center'>
@@ -73,7 +73,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='font-bold text-white text-center'>
                 Google Clone Search Engine App
               </span>
               <div className='pt-8 text-center'>
@@ -96,8 +96,8 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Forkify Recipe App
+              <span className='font-bold text-white text-center'>
+                Forkify Recipe Search App
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://forkify-v2.netlify.app/'>
@@ -120,8 +120,8 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                IMDB Clone
+              <span className='font-bold text-white text-center'>
+                IMDB Clone Movie Review App
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://imdb-clone-ajfm88.vercel.app/'>
@@ -143,8 +143,8 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Support Desk App
+              <span className='font-bold text-white text-center'>
+                Support Desk Ticket App
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://ajfm88supportdesk.herokuapp.com/'>
