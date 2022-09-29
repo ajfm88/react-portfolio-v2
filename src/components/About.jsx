@@ -20,10 +20,10 @@ const About = () => {
           </div>
           <div className='text-justify'>
             <p>
-              I'm a very ambitious Software Engineer and Front End Developer
-              working full time for a company in Los Angeles. I am currently
-              also learning about Back End Development and seeking to become a
-              Full Stack Software Engineer within the next 3 to 5 years.
+              I'm a very ambitious Junior Software Developer working full time
+              for a company based in Los Angeles. I am currently also learning
+              about Back End Development and seeking to become a Full Stack
+              Software Engineer within the next 3 to 5 years.
             </p>
             <p> </p>
             <p>
