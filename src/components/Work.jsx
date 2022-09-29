@@ -4,7 +4,7 @@ import IMDBClone from '../assets/imdb-clone.jpg';
 import InstagramClone from '../assets/instagram-clone.jpg';
 import Forkify from '../assets/forkify.jpg';
 import CrwnClothing from '../assets/crwn-clothing.jpg';
-import SupportDesk from '../assets/supportdesk.jpg';
+import PizzaLegends from '../assets/pizza-legends.jpg';
 
 const Work = () => {
   return (
@@ -138,21 +138,21 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${SupportDesk})` }}
+            style={{ backgroundImage: `url(${PizzaLegends})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='font-bold text-white text-center'>
-                Support Desk Ticket App
+                Pizza Legends - A JRPG Game
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://ajfm88supportdesk.herokuapp.com/'>
+                <a href='https://pizza-legends-ajfm88.netlify.app/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/ajfm88/support-desk/'>
+                <a href='https://github.com/ajfm88/pizza-legends/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
