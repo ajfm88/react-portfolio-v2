@@ -2,7 +2,7 @@ import React from 'react';
 import IMDBClone from '../assets/imdb-clone.jpg';
 import InstagramClone from '../assets/instagram-clone.jpg';
 import PizzaLegends from '../assets/pizza-legends.jpg';
-import Cryptobase from '../assets/cryptobase.jpg';
+import Cryptobase from '../assets/cryptobase.png';
 import CrwnClothing from '../assets/crwn-clothing.jpg';
 import GoogleClone from '../assets/google-clone.jpg';
 import Forkify from '../assets/forkify.jpg';
@@ -24,31 +24,6 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${IMDBClone})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='font-bold text-white text-center'>
-                IMDB Clone Movie Review App
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://imdb-clone-ajfm88.vercel.app'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://github.com/ajfm88/imdb-clone'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Grid Item */}
-          <div
             style={{ backgroundImage: `url(${InstagramClone})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
@@ -64,56 +39,6 @@ const Work = () => {
                   </button>
                 </a>
                 <a href='https://github.com/ajfm88/instagram-clone'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${PizzaLegends})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='font-bold text-white text-center'>
-                Pizza Legends - A JRPG Game
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://pizza-legends-ajfm88.netlify.app'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://github.com/ajfm88/pizza-legends'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${Cryptobase})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='font-bold text-white text-center'>
-                Cryptobase - Crypto Tracking App
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://cryptobase-ajfm88.netlify.app'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://github.com/ajfm88/cryptobase'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -149,21 +74,21 @@ const Work = () => {
 
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${GoogleClone})` }}
+            style={{ backgroundImage: `url(${IMDBClone})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='font-bold text-white text-center'>
-                Google Clone Search Engine App
+                IMDB Clone Movie Review App
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://google-clone-ajfm88.vercel.app'>
+                <a href='https://imdb-clone-ajfm88.vercel.app'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/ajfm88/google-clone'>
+                <a href='https://github.com/ajfm88/imdb-clone'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -199,21 +124,71 @@ const Work = () => {
 
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${BluePidgeon})` }}
+            style={{ backgroundImage: `url(${Cryptobase})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='font-bold text-white text-center'>
-                Blue Pidgeon Photography Website
+                Cryptobase - Crypto Tracking App
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://blue-pidgeon-photography.netlify.app'>
+                <a href='https://cryptobase-ajfm88.netlify.app'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/ajfm88/BluePidgeonPhotography'>
+                <a href='https://github.com/ajfm88/cryptobase'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${GoogleClone})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='font-bold text-white text-center'>
+                Google Clone Search Engine App
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://google-clone-ajfm88.vercel.app'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/ajfm88/google-clone'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${PizzaLegends})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='font-bold text-white text-center'>
+                Pizza Legends - A JRPG Game
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://pizza-legends-ajfm88.netlify.app'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/ajfm88/pizza-legends'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -239,6 +214,31 @@ const Work = () => {
                   </button>
                 </a>
                 <a href='https://github.com/ajfm88/CompleteJavaScriptCourseJonas/tree/main/13-Advanced-DOM-Bankist'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${BluePidgeon})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='font-bold text-white text-center'>
+                Blue Pidgeon Photography Website
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://blue-pidgeon-photography.netlify.app'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/ajfm88/BluePidgeonPhotography'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
