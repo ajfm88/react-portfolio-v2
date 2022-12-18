@@ -21,7 +21,11 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <a href='https://www.youtube.com/watch?v=x-6J4qPn5u8&t'>
+        <a
+          href='https://www.youtube.com/watch?v=x-6J4qPn5u8&t'
+          target='_blank'
+          rel='noreferrer'
+        >
           <img src={Logo} alt='Logo' style={{ width: '50px' }} />
         </a>
       </div>
