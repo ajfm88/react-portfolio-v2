@@ -8,7 +8,7 @@ import TailwindCSS from '../assets/tailwindcss.png';
 import TypeScript from '../assets/typescript.png';
 import NextJS from '../assets/nextjs.png';
 import MongoDB from '../assets/mongodb.png';
-import Express from '../assets/express.svg';
+import ExpressJS from '../assets/express.svg';
 import ReactJS from '../assets/reactjs.png';
 import NodeJS from '../assets/nodejs.png';
 
@@ -59,10 +59,10 @@ const Skills = () => {
               <img
                 className='w-20 mx-auto'
                 src={JavaScript}
-                alt='JavaScript ES6 icon'
+                alt='JavaScript icon'
               />
             </a>
-            <p className='my-4'>JAVASCRIPT ES6</p>
+            <p className='my-4'>JAVASCRIPT</p>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
@@ -84,32 +84,32 @@ const Skills = () => {
             <a href='https://www.mongodb.com' target='_blank' rel='noreferrer'>
               <img className='w-20 mx-auto' src={MongoDB} alt='MongoDB icon' />
             </a>
-            <p className='my-4'>MONGO DB</p>
+            <p className='my-4'>MONGODB</p>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <a href='https://expressjs.com' target='_blank' rel='noreferrer'>
               <img
                 className='w-20 mx-auto bg-white'
-                src={Express}
+                src={ExpressJS}
                 alt='ExpressJS icon'
               />
             </a>
-            <p className='my-4'>EXPRESS</p>
+            <p className='my-4'>EXPRESSJS</p>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <a href='https://reactjs.org' target='_blank' rel='noreferrer'>
               <img className='w-20 mx-auto' src={ReactJS} alt='ReactJS icon' />
             </a>
-            <p className='my-4'>REACT JS</p>
+            <p className='my-4'>REACTJS</p>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <a href='https://nodejs.org' target='_blank' rel='noreferrer'>
               <img className='w-20 mx-auto' src={NodeJS} alt='NodeJS icon' />
             </a>
-            <p className='my-4'>NODE JS</p>
+            <p className='my-4'>NODEJS</p>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
