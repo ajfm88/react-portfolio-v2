@@ -8,7 +8,7 @@ import TailwindCSS from '../assets/tailwindcss.png';
 import TypeScript from '../assets/typescript.png';
 import NextJS from '../assets/nextjs.png';
 import MongoDB from '../assets/mongodb.png';
-import ExpressJS from '../assets/express.svg';
+import ExpressJS from '../assets/expressjs.svg';
 import ReactJS from '../assets/reactjs.png';
 import NodeJS from '../assets/nodejs.png';
 
