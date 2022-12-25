@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
         <a
-          href='https://www.youtube.com/watch?v=x-6J4qPn5u8&t'
+          href='https://github.com/ajfm88'
           target='_blank'
           rel='noreferrer'
         >
