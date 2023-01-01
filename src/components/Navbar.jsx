@@ -8,6 +8,7 @@ import {
   FaInstagram,
   FaTwitterSquare,
   FaTiktok,
+  FaYelp,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -21,11 +22,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <a
-          href='https://github.com/ajfm88'
-          target='_blank'
-          rel='noreferrer'
-        >
+        <a href='https://github.com/ajfm88' target='_blank' rel='noreferrer'>
           <img src={Logo} alt='Logo' style={{ width: '50px' }} />
         </a>
       </div>
@@ -106,10 +103,10 @@ const Navbar = () => {
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[21%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.linkedin.com/in/ajfm88/'
+              href='https://www.linkedin.com/in/ajfm88'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -117,7 +114,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://github.com/ajfm88/'
+              href='https://github.com/ajfm88'
             >
               Github <FaGithub size={30} />
             </a>
@@ -130,18 +127,18 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#DAA520]'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1GDMJDucwRHGCmW1ervWhXCc1fjgCyBPE/view?usp=sharing'
+              className='flex justify-between items-center w-full text-[#0D2275]'
+              href='https://drive.google.com/file/d/1sl_M4uBqserhLv6U8RzDtkuDD2nVtc4z'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1778F2]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4267B2]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.facebook.com/ajfm88/'
+              href='https://www.facebook.com/ajfm88'
             >
               Facebook <FaFacebook size={30} />
             </a>
@@ -149,7 +146,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#C13584]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.instagram.com/ajfm88/'
+              href='https://www.instagram.com/ajfm88'
             >
               Instagram <FaInstagram size={30} />
             </a>
@@ -157,7 +154,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1DA1F2]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://twitter.com/ajfm88/'
+              href='https://twitter.com/ajfm88'
             >
               Twitter <FaTwitterSquare size={30} />
             </a>
@@ -165,9 +162,17 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#000000]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.tiktok.com/@ajfm88/'
+              href='https://www.tiktok.com/@ajfm88'
             >
               TikTok <FaTiktok size={30} />
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#C41200]'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://www.yelp.com/user_details?userid=JBqCl4WE7g9SPR-0y0tJzQ'
+            >
+              Yelp <FaYelp size={30} />
             </a>
           </li>
         </ul>
