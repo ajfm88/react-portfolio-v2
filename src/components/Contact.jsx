@@ -16,8 +16,8 @@ const Contact = () => {
             Contact
           </p>
           <p className='text-gray-300 py-4'>
-            // Please submit the form below or send me an email to:
-            alejandro.foucault@issprops.com
+            // If you wish to get in contact with me, please submit the form
+            below or send me an email to: alejandro.foucault@issprops.com
           </p>
         </div>
         <input
@@ -38,8 +38,19 @@ const Contact = () => {
           rows='10'
           placeholder='Message'
         ></textarea>
-        <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>
+        <button
+          type='submit'
+          className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'
+        >
           Let's Collaborate
+        </button>
+        <button
+          type='button'
+          className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'
+        >
+          <a href='https://drive.google.com/file/d/1PaMnfocfEEbOowfjpGdQ9gjMky9i1o6A'>
+            See Resume
+          </a>
         </button>
       </form>
     </div>

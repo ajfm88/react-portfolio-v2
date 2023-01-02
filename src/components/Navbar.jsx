@@ -122,7 +122,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='mailto:ajfoucaultmo@mail.usf.edu'
+              href='mailto:alejandro.foucault@issprops.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -130,7 +130,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#DAA520]'>
             <a
               className='flex justify-between items-center w-full text-[#0D2275]'
-              href='https://drive.google.com/file/d/1sl_M4uBqserhLv6U8RzDtkuDD2nVtc4z'
+              href='https://drive.google.com/file/d/1PaMnfocfEEbOowfjpGdQ9gjMky9i1o6A'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
