@@ -23,15 +23,15 @@ const About = () => {
               I'm a very ambitious Junior Software Developer working full time
               for a company based in Los Angeles. I am passionate about building
               excellent software that improves the lives of those around me. I
-              aim to improve myself and hone my coding and problem solving
-              skills daily. The tech world advances at a rapid pace and the only
+              aim to improve and hone my coding and problem-solving skills daily. 
+              The tech world advances at a rapid pace and the only
               way to keep up is to be on top of the latest technologies.
             </p>
             <p>
               I am also a fitness enthusiast, an avid reader (both fiction and
               non-fiction), a language learner (currently at an intermediate
               level in Japanese), and a Yelp Elite Squad member who loves ramen,
-              especially Tonkotsu ramen and Tsukemen. .
+              especially Tonkotsu ramen and Tsukemen.
             </p>
           </div>
         </div>
