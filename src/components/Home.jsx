@@ -15,12 +15,17 @@ const Home = () => {
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
           I'm a Software Engineer.
         </h2>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>
+        <p className='text-[#cacedd] py-4 max-w-[700px]'>
           I specialize in building (and occasionally designing) exceptional
-          digital experiences. I work for a company in Los Angeles as a Junior
-          Software Developer, and I split my time between L.A. County and Orange
-          County. Currently, I’m focused on learning Back End Development and
-          how to build full-stack web applications.
+          digital experiences. I am currently employed at a company in Los
+          Angeles as a Junior Software Developer, where I work on improving and
+          enhancing a Full Stack Web App.
+        </p>
+        <p className='text-[#cacedd] py-4 max-w-[700px]'>
+          Every day I strive to keep honing my problem-solving and coding
+          skills, both in and outside of work, and I also always maintain a
+          hunger for learning more about the intricate and fascinating world of
+          Software Engineering, especially as it relates to web development.
         </p>
         <div>
           <Link to='work' smooth={true} duration={500}>

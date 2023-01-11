@@ -21,23 +21,17 @@ const About = () => {
           <div className='text-justify'>
             <p>
               I'm a very ambitious Junior Software Developer working full time
-              for a company based in Los Angeles. I am currently also learning
-              about Back End Development and seeking to become a Full Stack
-              Software Engineer within the next 3 to 5 years.
+              for a company based in Los Angeles. I am passionate about building
+              excellent software that improves the lives of those around me. I
+              aim to improve myself and hone my coding and problem solving
+              skills daily. The tech world advances at a rapid pace and the only
+              way to keep up is to be on top of the latest technologies.
             </p>
-            <p> </p>
-            <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I aim to improve myself and hone my
-              coding and problem solving skills daily. The tech world advances
-              at a rapid pace and the only way to keep up is to be on top of the
-              latest technologies.
-            </p>
-            <p> </p>
             <p>
               I am also a fitness enthusiast, an avid reader (both fiction and
               non-fiction), a language learner (currently at an intermediate
-              level in Japanese), and a foodie (Yelp Elite status).
+              level in Japanese), and a Yelp Elite Squad member who loves ramen,
+              especially Tonkotsu ramen and Tsukemen. .
             </p>
           </div>
         </div>
