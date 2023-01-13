@@ -17,15 +17,15 @@ const Home = () => {
         </h2>
         <p className='text-[#cacedd] py-4 max-w-[700px]'>
           I specialize in building (and occasionally designing) exceptional
-          digital experiences. I am currently employed at a company in Los
-          Angeles as a Junior Software Developer, where I work on improving and
-          enhancing a Full Stack Web App.
+          digital experiences. I'm a very ambitious Junior Software Developer
+          working full time for a company based in Los Angeles, where I work on
+          improving and enhancing a Full Stack Web App.
         </p>
         <p className='text-[#cacedd] py-4 max-w-[700px]'>
-          Every day I strive to keep honing my problem-solving and coding
-          skills, both in and outside of work, and I also always maintain a
-          hunger for learning more about the intricate and fascinating world of
-          Software Engineering, especially as it relates to web development.
+          I am also a fitness enthusiast, an avid reader (both fiction and
+          non-fiction), a language learner (currently at an intermediate level
+          in Japanese), and a Yelp Elite Squad member who loves ramen,
+          especially Tonkotsu ramen and Tsukemen.
         </p>
         <div>
           <Link to='work' smooth={true} duration={500}>

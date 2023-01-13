@@ -4,6 +4,8 @@ import TwitterClone from '../assets/projects/twitter-clone.jpg';
 import Cryptobase from '../assets/projects/cryptobase.png';
 import IMDBClone from '../assets/projects/imdb-clone.jpg';
 import PizzaLegends from '../assets/projects/pizza-legends.jpg';
+import GoogleClone from '../assets/projects/google-clone.jpg';
+import Forkify from '../assets/projects/forkify.jpg';
 
 export const data = [
   {
@@ -47,5 +49,20 @@ export const data = [
     image: PizzaLegends,
     github: 'https://github.com/ajfm88/pizza-legends',
     live: 'https://pizza-legends-ajfm88.netlify.app',
+  },
+  {
+    id: 7,
+    name: 'Google Clone - Search Engine App',
+    image: GoogleClone,
+    github: 'https://github.com/ajfm88/google-clone',
+    live: 'https://google-clone-ajfm88.vercel.app',
+  },
+  {
+    id: 8,
+    name: 'Forkify - Recipe Search App',
+    image: Forkify,
+    github:
+      'https://github.com/ajfm88/javascript-30-projects/tree/main/23-forkify',
+    live: 'https://forkify-recipe-search.onrender.com',
   },
 ];
