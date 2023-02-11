@@ -7,10 +7,8 @@
 ## Features:
 
 - Uses ReactJS. ⚛️
-- Styled with TailwindCSS. 🎨
+- Styled with Tailwind CSS 3. 🎨
 
-## Installation:
+#### Original Course
 
-- Clone the repo.
-- Use the command `yarn` to install dependencies.
-- Use the command `npm run start` to run the app in localhost.
+[Build a REACT JS Portfolio Website Using Tailwind CSS by Code Commerce](https://www.youtube.com/watch?v=2kg0z1qNrkw)

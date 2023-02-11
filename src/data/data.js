@@ -1,16 +1,17 @@
 import InstagramClone from '../assets/projects/instagram-clone.jpg';
 import CrwnClothing from '../assets/projects/crwn-clothing.jpg';
-import TwitterClone from '../assets/projects/twitter-clone.jpg';
+import RealtorClone from '../assets/projects/realtor-clone.jpg';
 import Cryptobase from '../assets/projects/cryptobase.png';
 import IMDBClone from '../assets/projects/imdb-clone.jpg';
 import PizzaLegends from '../assets/projects/pizza-legends.jpg';
-import GoogleClone from '../assets/projects/google-clone.jpg';
+import TwitterClone from '../assets/projects/twitter-clone.jpg';
 import Forkify from '../assets/projects/forkify.jpg';
+import GoogleClone from '../assets/projects/google-clone.jpg';
 
 export const data = [
   {
     id: 1,
-    name: 'Instagram Clone - Social Media App',
+    name: 'Instagram Clone - Photo Sharing App',
     image: InstagramClone,
     github: 'https://github.com/ajfm88/instagram-clone',
     live: 'https://instagram-clone.vercel.app',
@@ -24,10 +25,10 @@ export const data = [
   },
   {
     id: 3,
-    name: 'Twitter Clone - Social Media App',
-    image: TwitterClone,
-    github: 'https://github.com/ajfm88/twitter-clone',
-    live: 'https://twitter-clone-ajfm88.vercel.app',
+    name: 'Realtor Clone - Houses for Rent and Sale',
+    image: RealtorClone,
+    github: 'https://github.com/ajfm88/realtor-clone',
+    live: 'https://realtor-clone-ajfm88.vercel.app',
   },
   {
     id: 4,
@@ -52,10 +53,10 @@ export const data = [
   },
   {
     id: 7,
-    name: 'Google Clone - Search Engine App',
-    image: GoogleClone,
-    github: 'https://github.com/ajfm88/google-clone',
-    live: 'https://google-clone-ajfm88.vercel.app',
+    name: 'Twitter Clone - Microblogging App',
+    image: TwitterClone,
+    github: 'https://github.com/ajfm88/twitter-clone',
+    live: 'https://twitter-clone-ajfm88.vercel.app',
   },
   {
     id: 8,
@@ -64,5 +65,12 @@ export const data = [
     github:
       'https://github.com/ajfm88/javascript-30-projects/tree/main/23-forkify',
     live: 'https://forkify-recipe-search.onrender.com',
+  },
+  {
+    id: 9,
+    name: 'Google Clone - Search Engine App',
+    image: GoogleClone,
+    github: 'https://github.com/ajfm88/google-clone',
+    live: 'https://google-clone-ajfm88.vercel.app',
   },
 ];
