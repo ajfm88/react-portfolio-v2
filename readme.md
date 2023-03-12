@@ -2,7 +2,7 @@
 
 ## Live Demo:
 
-[Live Version](https://www.ajfm88.com)
+[Live Version](https://react-portfolio-v2-ajfm88.vercel.app)
 
 ## Features:
 
