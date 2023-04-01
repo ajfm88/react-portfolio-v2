@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <a href='https://github.com/ajfm88' target='_blank' rel='noreferrer'>
+        <a href='https://linktr.ee/ajfm88' target='_blank' rel='noreferrer'>
           <img src={Logo} alt='Logo' style={{ width: '50px' }} />
         </a>
       </div>
@@ -122,7 +122,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='mailto:alejandro.foucault@issprops.com'
+              href='mailto:ajfoucaultmo@mail.usf.edu'
             >
               Email <HiOutlineMail size={30} />
             </a>

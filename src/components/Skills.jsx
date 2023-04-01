@@ -1,16 +1,15 @@
-import React from 'react';
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
-import Git from '../assets/git.png';
-import Firebase from '../assets/firebase.png';
-import TailwindCSS from '../assets/tailwindcss.png';
 import TypeScript from '../assets/typescript.png';
-import NextJS from '../assets/nextjs.png';
 import MongoDB from '../assets/mongodb.png';
-import ExpressJS from '../assets/expressjs.svg';
+import Express from '../assets/expressjs.svg';
 import ReactJS from '../assets/reactjs.png';
 import NodeJS from '../assets/nodejs.png';
+import Python from '../assets/python.png';
+import TailwindCSS from '../assets/tailwindcss.png';
+import NextJS from '../assets/nextjs.png';
+import Git from '../assets/git.png';
 
 const Skills = () => {
   return (
@@ -91,18 +90,18 @@ const Skills = () => {
             <a href='https://expressjs.com' target='_blank' rel='noreferrer'>
               <img
                 className='w-20 mx-auto bg-white'
-                src={ExpressJS}
+                src={Express}
                 alt='ExpressJS icon'
               />
             </a>
-            <p className='my-4'>EXPRESSJS</p>
+            <p className='my-4'>EXPRESS</p>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <a href='https://reactjs.org' target='_blank' rel='noreferrer'>
               <img className='w-20 mx-auto' src={ReactJS} alt='ReactJS icon' />
             </a>
-            <p className='my-4'>REACTJS</p>
+            <p className='my-4'>REACT</p>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
@@ -113,18 +112,10 @@ const Skills = () => {
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <a
-              href='https://firebase.google.com'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img
-                className='w-20 mx-auto'
-                src={Firebase}
-                alt='Firebase icon'
-              />
+            <a href='https://www.python.org' target='_blank' rel='noreferrer'>
+              <img className='w-20 mx-auto' src={Python} alt='Python icon' />
             </a>
-            <p className='my-4'>FIREBASE</p>
+            <p className='my-4'>PYTHON</p>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
@@ -142,7 +133,7 @@ const Skills = () => {
             <a href='https://nextjs.org' target='_blank' rel='noreferrer'>
               <img className='w-20 mx-auto' src={NextJS} alt='NextJS icon' />
             </a>
-            <p className='my-4'>NEXTJS</p>
+            <p className='my-4'>NEXT.JS</p>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>

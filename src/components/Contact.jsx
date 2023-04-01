@@ -8,7 +8,7 @@ const Contact = () => {
     >
       <form
         method='POST'
-        action='https://getform.io/f/70bff7fe-5618-4568-b90f-2f45d441607f'
+        action='https://getform.io/f/73ae0802-70bd-4635-a205-59253b029ea1'
         className='flex flex-col max-w-[600px] w-full'
       >
         <div className='pb-8'>
@@ -17,7 +17,7 @@ const Contact = () => {
           </p>
           <p className='text-gray-300 py-4'>
             // If you wish to get in contact with me, please submit the form
-            below or send me an email to: alejandro.foucault@issprops.com
+            below or send me an email to: ajfoucaultmo@mail.usf.edu
           </p>
         </div>
         <input

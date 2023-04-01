@@ -1,20 +1,20 @@
-import RealtorClone from '../assets/projects/realtor-clone.jpg';
+import EvoGym from '../assets/projects/evogym.jpg';
 import Jobify from '../assets/projects/jobify.png';
-import InstagramClone from '../assets/projects/instagram-clone.jpg';
+import RealtorClone from '../assets/projects/realtor-clone.jpg';
 import PizzaLegends from '../assets/projects/pizza-legends.jpg';
-import Cryptobase from '../assets/projects/cryptobase.png';
 import IMDBClone from '../assets/projects/imdb-clone.jpg';
-import Forkify from '../assets/projects/forkify.jpg';
-import CrwnClothing from '../assets/projects/crwn-clothing.jpg';
+import Cryptobase from '../assets/projects/cryptobase.png';
 import TwitterClone from '../assets/projects/twitter-clone.jpg';
+import CrwnClothing from '../assets/projects/crwn-clothing.jpg';
+import InstagramClone from '../assets/projects/instagram-clone.jpg';
 
 export const data = [
   {
     id: 1,
-    name: 'Realtor Clone - Houses for Rent and Sale',
-    image: RealtorClone,
-    github: 'https://github.com/ajfm88/realtor-clone',
-    live: 'https://realtor-clone-ajfm88.vercel.app',
+    name: 'EvoGym - Gym & Fitness App',
+    image: EvoGym,
+    github: 'https://github.com/ajfm88/evogym',
+    live: 'https://evogym-ajfm88.netlify.app',
   },
   {
     id: 2,
@@ -25,10 +25,10 @@ export const data = [
   },
   {
     id: 3,
-    name: 'Instagram Clone - Photo Sharing App',
-    image: InstagramClone,
-    github: 'https://github.com/ajfm88/instagram-clone',
-    live: 'https://instagram-clone.vercel.app',
+    name: 'Realtor Clone - Houses for Rent and Sale',
+    image: RealtorClone,
+    github: 'https://github.com/ajfm88/realtor-clone',
+    live: 'https://realtor-clone-ajfm88.vercel.app',
   },
   {
     id: 4,
@@ -53,11 +53,10 @@ export const data = [
   },
   {
     id: 7,
-    name: 'Forkify - Recipe Search App',
-    image: Forkify,
-    github:
-      'https://github.com/ajfm88/javascript-30-projects/tree/main/23-forkify',
-    live: 'https://forkify-recipe-search.onrender.com',
+    name: 'Twitter Clone - Microblogging App',
+    image: TwitterClone,
+    github: 'https://github.com/ajfm88/twitter-clone',
+    live: 'https://twitter-clone-ajfm88.vercel.app',
   },
   {
     id: 8,
@@ -68,9 +67,9 @@ export const data = [
   },
   {
     id: 9,
-    name: 'Twitter Clone - Microblogging App',
-    image: TwitterClone,
-    github: 'https://github.com/ajfm88/twitter-clone',
-    live: 'https://twitter-clone-ajfm88.vercel.app',
+    name: 'Instagram Clone - Photo Sharing App',
+    image: InstagramClone,
+    github: 'https://github.com/ajfm88/instagram-clone',
+    live: 'https://instagram-clone.vercel.app',
   },
 ];
