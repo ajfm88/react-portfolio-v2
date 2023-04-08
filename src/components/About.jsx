@@ -21,10 +21,10 @@ const About = () => {
           <div className='text-justify'>
             <p>
               Welcome to my personal website and portfolio! My name is Alejandro
-              J. Foucault, and I am a Junior Software Developer with a passion
-              for creating innovative and efficient solutions to complex
-              problems and building excellent software that improves the lives
-              of those around me.
+              J. Foucault. I specialize in building (and occasionally designing)
+              exceptional digital experiences and I have a passion for creating
+              innovative and efficient solutions to complex problems and
+              building excellent software that improves the lives of people.
             </p>
             <br />
             <p>

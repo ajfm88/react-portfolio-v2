@@ -1,15 +1,11 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import BackgroundAnimation from './BackgroundAnimation';
 import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-[#0a192f]'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-        {/* <div className='max-w-[500px]'>
-          <BackgroundAnimation style={{ zIndex: '-1' }} />
-        </div> */}
         <p className='text-pink-600'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
           Alejandro J. Foucault
@@ -18,10 +14,9 @@ const Home = () => {
           I’m a Software Engineer.
         </h2>
         <p className='text-[#cacedd] py-4 max-w-[700px]'>
-          I specialize in building (and occasionally designing) exceptional
-          digital experiences. I'm a very ambitious Junior Software Developer
-          working full time for a company based in Los Angeles, where I work on
-          improving and enhancing a Full Stack Web App.
+          I work full time for a company in the Hollywood film industry that is
+          based in Los Angeles, where I work on improving, debugging, testing
+          and adding new features to a Full Stack Web Application.
         </p>
         <p className='text-[#cacedd] py-4 max-w-[700px]'>
           I am also a fitness enthusiast, an avid reader (both fiction and

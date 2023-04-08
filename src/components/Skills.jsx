@@ -10,6 +10,7 @@ import Python from '../assets/python.png';
 import TailwindCSS from '../assets/tailwindcss.png';
 import NextJS from '../assets/nextjs.png';
 import Git from '../assets/git.png';
+import BackgroundAnimation from './BackgroundAnimation';
 
 const Skills = () => {
   return (

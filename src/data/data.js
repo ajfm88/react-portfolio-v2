@@ -18,7 +18,7 @@ export const data = [
   },
   {
     id: 2,
-    name: 'Jobify - Full Stack Job Tracking App\nDemo Account available for testing purposes.',
+    name: 'Jobify - Full Stack Job Tracking App',
     image: Jobify,
     github: 'https://github.com/ajfm88/jobify',
     live: 'https://jobify-ajfm88.onrender.com',
