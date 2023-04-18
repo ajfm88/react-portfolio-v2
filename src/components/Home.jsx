@@ -11,18 +11,13 @@ const Home = () => {
           Alejandro J. Foucault
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-          I’m a Software Engineer.
+          I’m a Software Developer.
         </h2>
         <p className='text-[#cacedd] py-4 max-w-[700px]'>
-          I work full time for a company in the Hollywood film industry that is
-          based in Los Angeles, where I work on improving, debugging, testing
-          and adding new features to a Full Stack Web Application.
+          I am employed full-time by a Hollywood film industry company based in Los Angeles, where my responsibilities include enhancing, debugging, testing, and implementing new features for a Full Stack Web Application.
         </p>
         <p className='text-[#cacedd] py-4 max-w-[700px]'>
-          I am also a fitness enthusiast, an avid reader (both fiction and
-          non-fiction), a language learner (currently at an intermediate level
-          in Japanese), and a Yelp Elite Squad member who loves ramen,
-          especially Tonkotsu ramen and Tsukemen.
+        In addition to my career, I am also passionate about fitness, reading (both fiction and non-fiction), learning languages (currently at an intermediate level in Japanese), and trying new restants as a Yelp Elite Squad member who favors ramen, especially Tonkotsu and Tsukemen.
         </p>
         <div>
           <Link to='work' smooth={true} duration={500}>
