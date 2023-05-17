@@ -4,7 +4,7 @@ import RealtorClone from '../assets/projects/realtor-clone.jpg';
 import PizzaLegends from '../assets/projects/pizza-legends.jpg';
 import IMDBClone from '../assets/projects/imdb-clone.jpg';
 import Cryptobase from '../assets/projects/cryptobase.png';
-import TwitterClone from '../assets/projects/twitter-clone.jpg';
+import AirbnbClone from '../assets/projects/airbnb-clone.jpg';
 import CrwnClothing from '../assets/projects/crwn-clothing.jpg';
 import InstagramClone from '../assets/projects/instagram-clone.jpg';
 
@@ -25,7 +25,7 @@ export const data = [
   },
   {
     id: 3,
-    name: 'Realtor Clone - Houses for Rent and Sale',
+    name: 'Realtor Clone - Real estate marketplace',
     image: RealtorClone,
     github: 'https://github.com/ajfm88/realtor-clone',
     live: 'https://realtor-clone-ajfm88.vercel.app',
@@ -53,10 +53,10 @@ export const data = [
   },
   {
     id: 7,
-    name: 'Twitter Clone - Microblogging App',
-    image: TwitterClone,
-    github: 'https://github.com/ajfm88/twitter-clone',
-    live: 'https://twitter-clone-ajfm88.vercel.app',
+    name: 'Airbnb Clone - Global home-sharing',
+    image: AirbnbClone,
+    github: 'https://github.com/ajfm88/airbnb-clone',
+    live: 'https://airebnb-ajfm88.vercel.app',
   },
   {
     id: 8,

@@ -1,6 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
+import BackgroundAnimation from './BackgroundAnimation';
 
 const Home = () => {
   return (
@@ -11,13 +12,21 @@ const Home = () => {
           Alejandro J. Foucault
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-          I’m a Software Developer.
+          I’m a Software Engineer.
         </h2>
         <p className='text-[#cacedd] py-4 max-w-[700px]'>
-          I am employed full-time by a Hollywood film industry company based in Los Angeles, where my responsibilities include enhancing, debugging, testing, and implementing new features for a Full Stack Web Application.
+          I am a very ambitious Junior Software Developer working full time for
+          a company in the Hollywood film industry, where I debug, test,
+          enhance, and add new features to a Full Stack Web Application. I have
+          a passion for creating innovative and efficient solutions to complex
+          problems and building excellent software that improves the lives of
+          people.
         </p>
         <p className='text-[#cacedd] py-4 max-w-[700px]'>
-        In addition to my career, I am also passionate about fitness, reading (both fiction and non-fiction), learning languages (currently at an intermediate level in Japanese), and trying new restants as a Yelp Elite Squad member who favors ramen, especially Tonkotsu and Tsukemen.
+          I am also a fitness enthusiast, an avid reader (both fiction and
+          non-fiction), a language learner (currently at an intermediate level
+          in Japanese), and a Yelp Elite Squad member who loves ramen,
+          especially Tonkotsu and Tsukemen. いただきます！ 🍜
         </p>
         <div>
           <Link to='work' smooth={true} duration={500}>
@@ -29,6 +38,9 @@ const Home = () => {
             </button>
           </Link>
         </div>
+      </div>
+      <div className='max-w-[500px] flex flex-col'>
+        <BackgroundAnimation />
       </div>
     </div>
   );

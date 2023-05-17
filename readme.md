@@ -2,12 +2,13 @@
 
 ## Live Demo:
 
-[Live Version](https://react-portfolio-v2-ajfm88.vercel.app)
+[Live Version](https://react-portfolio-v2-ajfm88-git-main-ajfm88.vercel.app)
 
 ## Features:
 
 - Uses ReactJS. ⚛️
 - Styled with Tailwind CSS 3. 🎨
+- React smooth scrolling. 😎
 
 #### Original Course
 

@@ -20,24 +20,17 @@ const About = () => {
           </div>
           <div className='text-justify'>
             <p>
-              Welcome to my personal website and portfolio! My name is Alejandro
-              J. Foucault. I specialize in building (and occasionally designing)
-              exceptional digital experiences and I have a passion for creating
-              innovative and efficient solutions to complex problems and
-              building excellent software that improves the lives of people.
-            </p>
-            <br />
-            <p>
-              I have experience in multiple programming languages such as
-              JavaScript, Python, and C++ and I am always eager to learn new
-              technologies and tools to improve my skills. My experience
+              Welcome to my personal website and portfolio! I specialize in
+              building (and occasionally designing) exceptional digital
+              experiences. I have experience in multiple programming languages
+              such as JavaScript, Python, and C++ and I am always eager to learn
+              new technologies and tools to improve my skills. My experience
               includes The Coder School, and The MBS Group where I have had the
-              opportunity to work on various aspects of software development.
-            </p>
-            {/* such as teaching coding to kids, tweens and teenagers (The Coder
+              opportunity to work on various aspects of software development
+              such as teaching coding to kids, tweens and teenagers (The Coder
               School), and working on a Full Stack App being used by over 200 of
               our employees (The MBS Group/ISSProps).
-            </p> */}
+            </p>
             <br />
             {/* <p>
               Every day I strive to keep honing my problem-solving and coding
