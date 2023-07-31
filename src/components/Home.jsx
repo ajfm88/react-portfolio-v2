@@ -11,9 +11,9 @@ const Home = () => {
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
           Alejandro J. Foucault
         </h1>
-        <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
+        <h1 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
           I’m a Software Engineer.
-        </h2>
+        </h1>
         <p className='text-[#cacedd] py-4 max-w-[700px]'>
           I am a very ambitious Junior Software Developer working full time for
           a company in the Hollywood film industry, where I debug, test,
@@ -24,8 +24,8 @@ const Home = () => {
         </p>
         <p className='text-[#cacedd] py-4 max-w-[700px]'>
           I am also a fitness enthusiast, an avid reader (both fiction and
-          non-fiction), a language learner (currently at an intermediate level
-          in Japanese), and a Yelp Elite Squad member who loves ramen,
+          non-fiction), a language learner (currently at an N3 (intermediate
+          level) in Japanese), and a Yelp Elite Squad member who loves ramen,
           especially Tonkotsu and Tsukemen. いただきます！ 🍜
         </p>
         <div>

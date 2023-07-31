@@ -25,11 +25,11 @@ const About = () => {
               experiences. I have experience in multiple programming languages
               such as JavaScript, Python, and C++ and I am always eager to learn
               new technologies and tools to improve my skills. My experience
-              includes The Coder School, and The MBS Group where I have had the
-              opportunity to work on various aspects of software development
-              such as teaching coding to kids, tweens and teenagers (The Coder
-              School), and working on a Full Stack App being used by over 200 of
-              our employees (The MBS Group/ISSProps).
+              includes The Coder School, and The MBS Group / ISSProps where I
+              have had the opportunity to work on various aspects of software
+              development such as teaching coding to kids, tweens and teenagers
+              (The Coder School), and working on a Full Stack App being used by
+              over 200 of our employees (The MBS Group / ISSProps).
             </p>
             <br />
             {/* <p>

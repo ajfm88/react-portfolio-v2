@@ -50,11 +50,7 @@ const Skills = () => {
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <a
-              href='https://www.ecma-international.org/publications-and-standards/standards/ecma-262'
-              target='_blank'
-              rel='noreferrer'
-            >
+            <a href='https://javascript.info' target='_blank' rel='noreferrer'>
               <img
                 className='w-20 mx-auto'
                 src={JavaScript}

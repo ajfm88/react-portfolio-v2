@@ -1,20 +1,20 @@
-import EvoGym from '../assets/projects/evogym.jpg';
+import Spotify from '../assets/projects/spotify.png';
 import Jobify from '../assets/projects/jobify.png';
-import RealtorClone from '../assets/projects/realtor-clone.jpg';
-import PizzaLegends from '../assets/projects/pizza-legends.jpg';
-import IMDBClone from '../assets/projects/imdb-clone.jpg';
+import RealtorClone from '../assets/projects/realtor-clone.png';
+import PizzaLegends from '../assets/projects/pizza-legends.png';
+import IMDBClone from '../assets/projects/imdb-clone.png';
 import Cryptobase from '../assets/projects/cryptobase.png';
-import AirbnbClone from '../assets/projects/airbnb-clone.jpg';
-import CrwnClothing from '../assets/projects/crwn-clothing.jpg';
-import InstagramClone from '../assets/projects/instagram-clone.jpg';
+import Breadit from '../assets/projects/breadit.png';
+import EvoGym from '../assets/projects/evogym.png';
+import InstagramClone from '../assets/projects/instagram-clone.png';
 
 export const data = [
   {
     id: 1,
-    name: 'EvoGym - Gym & Fitness App',
-    image: EvoGym,
-    github: 'https://github.com/ajfm88/evogym',
-    live: 'https://evogym-ajfm88.netlify.app',
+    name: 'Spotify Clone - Music streaming app',
+    image: Spotify,
+    github: 'https://github.com/ajfm88/spotify-clone',
+    live: 'https://spotify-ajfm88.vercel.app',
   },
   {
     id: 2,
@@ -53,17 +53,17 @@ export const data = [
   },
   {
     id: 7,
-    name: 'Airbnb Clone - Global home-sharing',
-    image: AirbnbClone,
-    github: 'https://github.com/ajfm88/airbnb-clone',
-    live: 'https://airebnb-ajfm88.vercel.app',
+    name: 'Breadit - Social News forum',
+    image: Breadit,
+    github: 'https://github.com/ajfm88/breadit',
+    live: 'https://breadit-ajfm88.vercel.app',
   },
   {
     id: 8,
-    name: 'Crwn Clothing - eCommerce App',
-    image: CrwnClothing,
-    github: 'https://github.com/ajfm88/crwn-clothing-v2',
-    live: 'https://crwn-clothing-ajfm88.netlify.app',
+    name: 'EvoGym - Gym & Fitness App',
+    image: EvoGym,
+    github: 'https://github.com/ajfm88/evogym',
+    live: 'https://evogym-ajfm88.netlify.app',
   },
   {
     id: 9,
